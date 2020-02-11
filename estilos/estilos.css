@@ -1,0 +1,190 @@
+body{
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+header .contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+header ul{
+  display: flex;
+}
+header li{
+  list-style: none;
+  margin-right: 15px;
+}
+header a{
+  text-decoration: none;
+}
+
+.contenedor{
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+header {
+  background:linear-gradient(rgba(244,143,177,.9), rgba(236,64,122,0.9)), url(../imagenes/fondo.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+#contenedor-titulo-flex{
+  display: flex;
+  justify-content: center;
+  margin: 18vh 0;
+}
+
+h1{
+  font-size: 60px;
+  color: #fff;
+}
+h2{
+  font-size: 25px;
+  color: #fff;
+}
+.contenedor-titulo{
+  text-align: center;
+}
+.contenedor-titulo a, #sobre-mi a, #servicios a, #mis-trabajos a, #por-que-contratar-mis-servicios a, #contactame a, #blog a{
+  margin: 0 90vh;
+  font-size: 15px;
+  color: #FDFEFE;
+  background: #E91E63;
+  padding: 14px 24px;
+  display:inline-block;
+  text-align: center;
+}
+
+p.logo{
+  color: #fff;
+  font-size: 20px;
+}
+
+nav ul li a{
+  color: #fff;
+}
+
+/*seccion sobre mi*/
+H3{
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+#sobre-mi .contenedor-sobremi{
+  display: flex;
+  justify-content: space-around;
+}
+#sobre-mi .texto{
+  width: 42%;
+}
+/*SECCION SERVICIOS*/
+.contenedor-servicios{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  color: #fff;
+
+}
+.servicio{
+  width: 24%;
+  padding: 34px 30px 38px 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.servicio h4{
+  font-size: 30px;
+  margin: 0;
+}
+.servicio p{
+  margin-bottom: 20px;
+  height: 194px;
+}
+.contenedor-servicios .rosa{
+background-image: linear-gradient(to top, #6d68f3, #F1948A);
+box-shadow: 0 12px 30px 0 rgba(80,85,223,0.37);
+}
+
+
+.ondas{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.icono{
+  float: right;
+}
+
+/*SECCION MIS TRABAJOS*/
+button.owl-prev,button.owl-next{
+ font-size: 40px !important;
+}
+span{
+ color: #71bcfa;
+}
+/*SECCION POR QUÉ TOMAR MI CLASE*/
+.contenedor-trabajar{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content:space-around;
+}
+#por-que-contratar-mis-servicios .items{
+ width: 28%;
+ text-align: justify;
+}
+#por-que-contratar-mis-servicios ul li{
+ list-style: none;
+}
+/*SECCION BLOG*/
+#blog{
+ background: #F9FAFC;
+}
+#blog .contenedor-publicaciones{
+ display: flex;
+ justify-content: space-around;
+}
+
+
+}
+#blog .contenido{
+ background: #fff;
+ padding: 20px;
+
+}
+
+#blog p{
+ color: #5A6169;
+ line-height:24px;
+ font-size: 16px;
+}
+#blog a{
+ width: 87px;
+}
+/*SECCION CONTACTO*/
+.contenedor-contactame{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  color: #fff;
+}
+.contactame{
+  width: 24%;
+  padding: 34px 30px 38px 30px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  position: relative;
+}
+.contactame h4{
+  font-size: 30px;
+  margin: 0;
+}
+.contactame p{
+  margin-bottom: 20px;
+  height: 194px;
+}
+.contenedor-contactame .rosa{
+background-image: linear-gradient(to top, #6d68f3, #F1948A);
+box-shadow: 0 12px 30px 0 rgba(80,85,223,0.37);
+
+}
