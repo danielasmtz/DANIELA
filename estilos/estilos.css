@@ -96,6 +96,8 @@ H3{
 .servicio h4{
   font-size: 30px;
   margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 .servicio p{
   margin-bottom: 20px;
